@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* background-color: #228B22;
+            margin: 0%;
+            padding: 0%;
+            height: 100vh; */
+            /* Thumbnail */
+
+position: relative;
+width: 1800px;
+height: 850px;
+
+background: radial-gradient(98.33% 98.33% at 0% 0%, #002D1A 0%, #004513 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+
+        }
+        .logo{
+          /* Logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 21.6px;
+
+position: absolute;
+width: 730.08px;
+height: 170px;
+left: 215px;
+top: 80px;
+
+        }
+        .logo img{
+            /* plant 1 */
+
+width: 122.48px;
+height: 122.48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+        }
+        h1{
+            /* Ecobazar */
+
+width: 400px;
+height: 100px;
+margin-top: 100px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 90.484px;
+line-height: 120px;
+/* identical to box height, or 119% */
+letter-spacing: -0.03em;
+
+/* Gray Scale/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+        }
+        .p{
+            /* Organic eCommerce Figma Template */
+
+position: absolute;
+width: 600px;
+height: 130px;
+left: 235px;
+top: 250.6px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 62px;
+line-height: 100%;
+/* or 101px */
+
+/* Gray Scale/White */
+color: #FFFFFF;
+
+
+        }
+        .number{
+            /* Frame 33 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 68px;
+
+position: absolute;
+width: 631px;
+height: 241.4px;
+left: 215px;
+top: 400px;
+
+
+        }
+        .sec1{
+            /* Frame 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 14.4px;
+
+width: 212px;
+height: 241.4px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+        }
+        .sec2{
+            /* Frame 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 14.4px;
+
+width: 212px;
+height: 241.4px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+        }
+        h2{
+            /* 55+ */
+
+width: 122px;
+height: 95px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 115.2px;
+line-height: 100%;
+/* or 115px */
+
+color: #FFF61F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+        }
+         .sec1 p{
+            /* Beautiful page */
+
+width: 100px;
+height: 72px;
+margin-top: 20px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 40.8px;
+line-height: 80%;
+/* or 56px */
+
+/* Gray Scale/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+
+        }
+        .sec2 p{
+           /* Beautiful page */
+
+width: 100px;
+height: 72px;
+margin-top: 20px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 40.8px;
+line-height: 80%;
+/* or 56px */
+
+/* Gray Scale/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+  .section1 .section{
+    display: inline-block;
+    width: 50%;
+  }
+  .img2 img{
+    /* 01_Homepage 1 */
+
+position: absolute;
+width: 805.2px;
+height: 489.6px;
+left: 1000.6px;
+top: 132.8px;
+background: url(02_Homepage_Box_Layout.jpg);
+border-radius: 8.2px;
+
+  }
+.img1 img{
+    /* 01_Homepage 2 */
+
+position: absolute;
+width: 303.2px;
+height: 200px;
+left: 1484px;
+top: -0.001px;
+
+/* background: url(03_Product Quick View.jpg); */
+opacity: 0.9;
+filter: drop-shadow(0px 43.091px 86.182px rgba(0, 0, 0, 0.05));
+border-radius: 7.2px;
+
+}
+  .img3 img{
+    /* 01_Homepage 2 */
+
+position: absolute;
+width: 663.2px;
+height: 235px;
+left: 1130px;
+top: 600.4px;
+
+/* background: url(01_Homepage.jpg); */
+opacity:0.9;
+filter: drop-shadow(0px 43.091px 86.182px rgba(0, 0, 0, 0.05));
+border-radius: 7.2px;
+
+  }
+  .section{
+    background: url(./Vector.jpg);
+  }
+  .image{
+    /* objects 1 */
+
+position: absolute;
+width: 93.37px;
+height: 240.53px;
+left: 903.79px;
+top: -160.44px;
+
+background: url(objects.png);
+filter: blur(3.6px);
+transform: rotate(-134.97deg);
+
+  }
+  .im{
+    /* objects 2 */
+
+position: absolute;
+width: 104.44px;
+height: 240.53px;
+left: 9.67px;
+top: 10px;
+
+background: url(objects.png);
+filter: blur(3.6px);
+transform: matrix(0.97, -0.23, -0.23, -0.97, 0, 0);
+
+  }
+  .image2 .me{
+    /* growth-close-up-environmental-lush-natural 1 */
+
+position: absolute;
+width: 104.4px;
+height: 90px;
+left: 978.2px;
+top: 216px;
+
+background: url(growth-close-up-environmental-lush-natural.png);
+
+  }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="section1">
+    <div class="logo">
+        <img src="./Group.png">
+        <h1>Shopery</h1>
+    </div>
+    <p class="p">
+        Organic eCommerce
+Figma Template
+    </p>
+
+    <div class="number">
+        <div class="sec1">
+            <h2>
+                55+
+            </h2>
+            <p>
+                Beautiful
+    page
+            </p>
+
+        </div>
+        <img src="./Line 1.png">
+        <div class="sec2">
+            <h2>
+                55+
+            </h2>
+            <p>
+                Figma UI components.
+            </p>
+            
+        </div>
+    </div>
+   
+   </div>
+</div>
+<div class="section">
+    <div class="img1">
+<img src="./01_Homepage 2 (1).png">
+    </div>
+    <div class="img2">
+        <img class="image" src="./objects 1.png">
+        <img class="im" src="./objects 2.png">
+        <img class="me" src="./3 1.png">
+<img src="./01_Homepage 1.png">
+    </div>
+    <div class="img3">
+<img src="./01_Homepage 2.png">
+    </div>
+</div>
+</body>
+</html>
